@@ -2,7 +2,7 @@ pipeline
 {
 
 agent {
-  label 'DevServer'
+  label 'warrior'
 }
 
 parameters {
@@ -10,10 +10,10 @@ parameters {
 }
 
 environment{
-    NAME = "piyush"
+    NAME = "salman"
 }
 tools {
-  maven 'mymaven'
+  maven 'mvn'
 }
 
 stages{
